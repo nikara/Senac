@@ -12,7 +12,11 @@ public class Exercicio7 {
 
             System.out.println("Vamos calcular o Percentual");
             System.out.println("Quanto você ganha: ");
-            faturamento
+            faturamento = sc.nextDouble();
+            System.out.println("Quanto você paga de imposto:");
+            imposto = sc.nextDouble();
+
+            System.out.println("O Percentual do Imposto é " + ((faturamento * imposto)/100)/100 + " %");
 
 
 
