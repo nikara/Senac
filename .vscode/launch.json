@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Desafio",
+            "request": "launch",
+            "mainClass": "Desafio",
+            "projectName": "exercicios1_2dc62fdb"
+        },
+        {
+            "type": "java",
             "name": "Exercicio11",
             "request": "launch",
             "mainClass": "Exercicio11",
