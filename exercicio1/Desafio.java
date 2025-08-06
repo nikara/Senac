@@ -13,7 +13,7 @@ public class Desafio {
 
             int valor  = sc.nextInt();
 
-            if ( valor % 7 == 1 && valor / 2 != 0){
+            if ( valor % 2 != 0 || valor == 2){
                 System.out.println("O valor " + valor + " é Primo");
             }else{
                 System.out.println("O valor " + valor + " não é Primo");
@@ -27,6 +27,29 @@ public class Desafio {
             
         }
     }
+    
+// Esse codigo funciona a casos que ele não pega achei uma caso mais interresandte.
+/*import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);       
+        System.out.println("Entre com um numero ");
+        int num = scan.nextInt();       
+        for(int i = 2; i <= num; i++) {
+            boolean primo = true;        
+            for(int j = 2; j < i; j++) {            
+                if(i % j == 0) {
+                    primo = false;
+                }
+            }
+            if(primo) {
+                System.out.println(i);
+            }          
+        }
+    }
+}
+*/
 
 
 
