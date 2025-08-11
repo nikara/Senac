@@ -3,7 +3,7 @@ package exercicio2;
 import java.util.Random;
 import java.util.Scanner;
 
-import jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput;
+
 
 public class exercicio3 {
 /*3) Crie um programa que simule um jogo da forca, com a entrada da palavra oculta, 
@@ -14,7 +14,6 @@ public class exercicio3 {
 	
 	public static void main(String[] args) {
 	
-		
 		System.out.println("Jogo da Forca");
 		
 		// Define as palavras que serão usadas
@@ -37,10 +36,12 @@ public class exercicio3 {
 		int tentativasRestantes = 6;
 		Scanner scanner = new Scanner(System.in);
 			
+		
+		// Loop da forca
 		while(tentativasRestantes > 0 && new String(palavraOculta).contains("_")) {
-			System.out.println("Palavra: " + new String(palavraOculta));
-			System.out.println("Tentativas restantes: " + tentativasRestantes);
-			System.out.println("Digite uma letra: ");
+			System.out.println("\nPalavra: " + new String(palavraOculta));
+			System.out.println("\nTentativas restantes: " + tentativasRestantes);
+			System.out.println("\nDigite uma letra: ");
 			char letra = scanner.next().charAt(0);
 			
 			boolean letraCorreta = false;
@@ -49,15 +50,20 @@ public class exercicio3 {
 					palavraOculta[i] = letra;
 					letraCorreta = true;
 				}
+				
+			}
+			if(letraCorreta == false) {
+				tentativasRestantes -= 1;
+				System.out.print("\nLetra errada Tentativas restantes: " + tentativasRestantes);
 			}
 			
-			
-			
-			
+		}
+		
+		if(tentativasRestantes == 0) {
+			System.out.println("\nVocê não descobriu a palavra secreta");
 		}
 				
-				
-				
+	}
 				
 			
 			
@@ -66,4 +72,4 @@ public class exercicio3 {
 			
 		
 	}
-}
+
