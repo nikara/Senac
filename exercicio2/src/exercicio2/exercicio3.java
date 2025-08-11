@@ -45,6 +45,7 @@ public class exercicio3 {
 			char letra = scanner.next().charAt(0);
 			
 			boolean letraCorreta = false;
+			// Verifica letra por letra
 			for (int i = 0; i < palavaraSecreta.length(); i++) {
 				if(palavaraSecreta.charAt(i) == letra) {
 					palavraOculta[i] = letra;
@@ -52,6 +53,7 @@ public class exercicio3 {
 				}
 				
 			}
+			// Diminui a quantidade de palavras
 			if(letraCorreta == false) {
 				tentativasRestantes -= 1;
 				System.out.print("\nLetra errada Tentativas restantes: " + tentativasRestantes);
