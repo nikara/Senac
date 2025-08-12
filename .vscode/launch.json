@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "JogoDaVelhaVetor",
+            "request": "launch",
+            "mainClass": "JogoDaVelhaVetor",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "exercicio2/JogoDaVelhaVetor",
             "request": "launch",
             "mainClass": "exercicio2/JogoDaVelhaVetor",
