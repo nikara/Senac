@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "exercicio2/JogoDaVelhaVetor",
+            "request": "launch",
+            "mainClass": "exercicio2/JogoDaVelhaVetor",
+            "projectName": "exercicios1_2dc62fdb"
+        },
+        {
+            "type": "java",
             "name": "Desafio",
             "request": "launch",
             "mainClass": "Desafio",
