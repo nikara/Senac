@@ -65,13 +65,8 @@ public class exercicio3 {
 			System.out.println("\nVocê não descobriu a palavra secreta");
 		}
 				
+			scanner.close();
 	}
 				
-			
-			
-			
-			
-			
-		
 	}
 

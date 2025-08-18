@@ -29,6 +29,7 @@ public class Exercicio4 {
 		
 		//if(resposta.equalsIgnoreCase("sim")
 		
+			sc.close();
 		
 		
 		

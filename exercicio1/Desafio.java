@@ -24,7 +24,7 @@ public class Desafio {
         }catch(Exception e ){
             System.out.println("Erro: "+ e.getMessage());
         }finally{
-            
+            sc.close();
         }
     }
     
