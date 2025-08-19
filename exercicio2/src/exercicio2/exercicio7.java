@@ -25,5 +25,7 @@ public class exercicio7 {
         }
         System.out.println("A média das notas é " + acumulador/count);
 
+        sc.close();
+
     }
 }

@@ -9,17 +9,20 @@ public class exercicio8 {
         
         Scanner sc = new Scanner(System.in);
 
-        int fatorial,temp;
-    System.out.println("Calculador de fatorial");
-    System.out.println("Digite o numero para calcular o fatorial");
+        int fatorial;
+        System.out.println("Calculador de fatorial");
+        System.out.println("Digite o numero para calcular o fatorial");
         fatorial = sc.nextInt();
-
+        int temp = fatorial;
         while (fatorial > 1) {
             
             temp = temp * (fatorial-1);
             fatorial--;
-            System.out.println(fatorial);
+            System.out.println(temp);
         }
+        System.out.println(temp);
+
+        sc.close();
     
 
     }    
