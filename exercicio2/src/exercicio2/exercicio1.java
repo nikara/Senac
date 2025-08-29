@@ -31,7 +31,7 @@ public class exercicio1 {
 		}catch(Exception e) {
 			System.out.println("Erro: " + e.getMessage());
 		}finally {
-			
+			sc.close();
 		}
 		
 	}
