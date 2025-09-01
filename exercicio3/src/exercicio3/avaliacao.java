@@ -34,6 +34,8 @@ public class avaliacao {
         // Lista com elementos desordenados
         int[] lista = {2,3,5,6,7,3,1,2,4};
 
+        System.out.println("Elemento em array desordenados");
+
          for(int i = 0; i < lista.length; i++){
             System.out.println(lista[i]);
         }
@@ -59,8 +61,9 @@ public class avaliacao {
             }
         }
 
+        System.out.println("Elemento em array Ordenados");
         // Impresão do valores ordenados
-        for(int i = 0; i < lista.length; i++){
+        for(int i = 0; i <= lista.length; i++){
             System.out.println(lista[i]);
         }
 
@@ -74,6 +77,17 @@ public class avaliacao {
         for(int i = 0; i < (lista.length-1); i++){
             // Introduzindo os elementos
             listOrdenado.add(lista[i]);
+        }
+        System.out.println("Lista de collections organizada");
+        // Imprimir a lista de collections organizada
+        for(int i = 0; i < listOrdenado.size(); i++){
+            System.out.println(listOrdenado.get(i));
+        }
+
+        System.out.println("Elemento em array Ordenados");
+        // Impresão do valores ordenados
+        for(int i = 0; i <= lista.length; i++){
+            System.out.println(lista[i]);
         }
            
     }
