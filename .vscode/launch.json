@@ -6,6 +6,19 @@
     "configurations": [
         {
             "type": "java",
+            "name": "avaliacao",
+            "request": "launch",
+            "mainClass": "exercicio3/exercicio3.avaliacao",
+            "projectName": "exercicio3 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Avalição",
+            "request": "launch",
+            "mainClass": "Avalição"
+        },
+        {
+            "type": "java",
             "name": "exercicio10",
             "request": "launch",
             "mainClass": "exercicio2/exercicio2.exercicio10",
