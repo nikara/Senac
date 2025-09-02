@@ -25,71 +25,74 @@ Ao final, deverá ser impresso em tela o valor ordenado do Array e da Collection
 
 */
 
+import java.util.TreeSet;
 
 public class avaliacao {
 
     public static void main(String[] args) {
         
-        
         // Lista com elementos desordenados
-        int[] lista = {2,3,5,6,7,3,1,2,4};
+            int[] elementos = {2,3,5,6,7,3,1,2,4};
 
-        System.out.println("Elemento em array desordenados");
+        try{
 
-         for(int i = 0; i < lista.length; i++){
-            System.out.println(lista[i]);
-        }
+            // Segunda lista para ordenar os valores
 
-        // Algoritmo bubble sort
+            int[] lista = {2,3,5,6,7,3,1,2,4};
 
-        //Loop para percorrer cada elemento
-        for(int i = 0; i < lista.length; i++){
-             // Loop para percorrer a lista enquanto verifica os valores
-            for(int j = 0; j < (lista.length-1); j++){
+            System.out.println("Elemento em array desordenados");
 
-                // Variavel para receber o valor 
-                int temp = 0;
-                // Verifica se o elemento na posição j e maior que o elemento na posição j+1
-                if(lista[j] > lista[j+1] ){
-                    // O se elemento j for maior ele e armazenado em temp
-                    temp = lista[j];
-                    // O elemento menor e jogado para frente do vetor
-                    lista[j] = lista[j+1];
-                    // O elemento maior e jogado para tras do vetor
-                    lista[j+1] = temp;
+            for(int i = 0; i < (lista.length-1); i++){
+                System.out.println(lista[i]);
+            }
+
+            // Algoritmo bubble sort
+
+            //Loop para percorrer cada elemento
+            for(int i = 0; i < lista.length; i++){
+                // Loop para percorrer a lista enquanto verifica os valores
+                for(int j = 0; j < (lista.length-1); j++){
+
+                    // Variavel para receber o valor 
+                    int temp = 0;
+                    // Verifica se o elemento na posição j e maior que o elemento na posição j+1
+                    if(lista[j] > lista[j+1] ){
+                        // O se elemento j for maior ele e armazenado em temp
+                        temp = lista[j];
+                        // O elemento menor e jogado para frente do vetor
+                        lista[j] = lista[j+1];
+                        // O elemento maior e jogado para tras do vetor
+                        lista[j+1] = temp;
+                    }
                 }
             }
-        }
 
-        System.out.println("Elemento em array Ordenados");
-        // Impresão do valores ordenados
-        for(int i = 0; i <= lista.length; i++){
-            System.out.println(lista[i]);
-        }
+            System.out.println("Elemento em array Ordenados");
+            // Impresão do valores ordenados
+            for(int i = 0; i < lista.length; i++){
+                System.out.println(lista[i]);
+            }
+        }catch(Exception e){
+            System.out.println("Error" + e.getMessage());
+        }finally{
 
-        // Valores sendo alocado em uma ListCollection
-        
-        // Declaração da ListCollection
-
-        ArrayList<Integer> listOrdenado = new ArrayList<>();
-
-        // Loop para introduzir os elementos
-        for(int i = 0; i < (lista.length-1); i++){
-            // Introduzindo os elementos
-            listOrdenado.add(lista[i]);
         }
-        System.out.println("Lista de collections organizada");
-        // Imprimir a lista de collections organizada
-        for(int i = 0; i < listOrdenado.size(); i++){
-            System.out.println(listOrdenado.get(i));
-        }
+        // Valores sendo alocado em uma TreSet
+            
+            // Declaração da TreSet
 
-        System.out.println("Elemento em array Ordenados");
-        // Impresão do valores ordenados
-        for(int i = 0; i <= lista.length; i++){
-            System.out.println(lista[i]);
-        }
-           
+            TreeSet<Integer> listaTreeSet = new TreeSet<>();
+            // Loop para introduzir os elementos
+            for(int n : elementos){
+                // Introduzindo os elementos
+                listaTreeSet.add(n);
+            }
+            System.out.println("Lista de Treset organizada");
+            // Imprimir a lista de collections organizada
+            for(int n : listaTreeSet){
+                System.out.println(n + " ");
+            }
+       
     }
     
 }
