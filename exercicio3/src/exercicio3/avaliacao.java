@@ -27,7 +27,7 @@ Ao final, deverá ser impresso em tela o valor ordenado do Array e da Collection
 
 import java.util.TreeSet;
 
-public class avaliacao {
+public class Avaliacao {
 
     public static void main(String[] args) {
         
