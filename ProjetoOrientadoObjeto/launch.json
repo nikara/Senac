@@ -1,0 +1,174 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "avaliacao",
+            "request": "launch",
+            "mainClass": "exercicio3/exercicio3.avaliacao",
+            "projectName": "exercicio3 (2)"
+        },
+        {
+            "type": "java",
+            "name": "Avalição",
+            "request": "launch",
+            "mainClass": "Avalição"
+        },
+        {
+            "type": "java",
+            "name": "exercicio10",
+            "request": "launch",
+            "mainClass": "exercicio2/exercicio2.exercicio10",
+            "projectName": "exercicio2"
+        },
+        {
+            "type": "java",
+            "name": "exercicio8",
+            "request": "launch",
+            "mainClass": "exercicio2/exercicio2.exercicio8",
+            "projectName": "exercicio2"
+        },
+        {
+            "type": "java",
+            "name": "exercicio7",
+            "request": "launch",
+            "mainClass": "exercicio2/exercicio2.exercicio7",
+            "projectName": "exercicio2"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio6",
+            "request": "launch",
+            "mainClass": "exercicio2/exercicio2.Exercicio6",
+            "projectName": "exercicio2"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio5",
+            "request": "launch",
+            "mainClass": "exercicio2/exercicio2.Exercicio5",
+            "projectName": "exercicio2"
+        },
+        {
+            "type": "java",
+            "name": "JogoDaVelhaVetor",
+            "request": "launch",
+            "mainClass": "JogoDaVelhaVetor",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "exercicio2/JogoDaVelhaVetor",
+            "request": "launch",
+            "mainClass": "exercicio2/JogoDaVelhaVetor",
+            "projectName": "exercicios1_2dc62fdb"
+        },
+        {
+            "type": "java",
+            "name": "Desafio",
+            "request": "launch",
+            "mainClass": "Desafio",
+            "projectName": "exercicios1_2dc62fdb"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio11",
+            "request": "launch",
+            "mainClass": "Exercicio11",
+            "projectName": "exercicios1_2dc62fdb"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio9",
+            "request": "launch",
+            "mainClass": "Exercicio9",
+            "projectName": "exercicios1_2dc62fdb"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio8",
+            "request": "launch",
+            "mainClass": "Exercicio8",
+            "projectName": "exercicios1_2dc62fdb"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio7",
+            "request": "launch",
+            "mainClass": "Exercicio7",
+            "projectName": "exercicios1_2dc62fdb"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio10",
+            "request": "launch",
+            "mainClass": "Exercicio10",
+            "projectName": "exercicios1_2dc62fdb"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio4",
+            "request": "launch",
+            "mainClass": "Exercicio4",
+            "projectName": "exercicios1_2dc62fdb"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio5",
+            "request": "launch",
+            "mainClass": "Exercicio5",
+            "projectName": "projetos_b7f42176"
+        },
+        {
+            "type": "java",
+            "name": "Media",
+            "request": "launch",
+            "mainClass": "Media",
+            "projectName": "projetos_b7f42176"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio6",
+            "request": "launch",
+            "mainClass": "Exercicio6",
+            "projectName": "projetos_b7f42176"
+        },
+        {
+            "type": "java",
+            "name": "Volume",
+            "request": "launch",
+            "mainClass": "Volume",
+            "projectName": "projetos_b7f42176"
+        },
+        {
+            "type": "java",
+            "name": "Area",
+            "request": "launch",
+            "mainClass": "Area",
+            "projectName": "projetos_b7f42176"
+        },
+        {
+            "type": "java",
+            "name": "media",
+            "request": "launch",
+            "mainClass": "media",
+            "projectName": "projetos_b7f42176"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "projetos_b7f42176"
+        }
+    ]
+}
